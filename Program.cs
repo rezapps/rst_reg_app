@@ -2,13 +2,14 @@
 ###########  A console app to register and display restaurnats employees.     ###########
 ###########  Classes to create in the namespace:                              ###########
 ###########  1. class Employee to define employee properties                  ###########
-###########  2. class EmployeesList to print list of employees in console     ###########
+###########  2. class EmployeesList to print employees or register new one    ###########
 ###########  3. class Program which is the entry of program.                  ###########
 */
 
 namespace rst_reg_app
 {
     // Employee class has 4 properties Id, Name, Title and Salary
+    // Id will be set automatically based of length of employees list.
     class Employee
     {
         public int Id { get; set; }
